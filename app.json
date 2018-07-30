@@ -1,0 +1,14 @@
+{
+	"expo": {
+		"name": "Test navigation",
+		"slug": "test-navigation",
+		"privacy": "public",
+		"platforms": ["ios", "android"],
+		"sdkVersion": "29.0.0",
+		"version": "1.0.0",
+		"primaryColor": "#ffffff",
+		"ios": {
+			"supportsTablet": true
+		}
+	}
+}

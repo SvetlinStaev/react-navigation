@@ -1,0 +1,31 @@
+{
+	"name": "test-navigation",
+	"version": "1.0.0",
+	"main": "node_modules/expo/AppEntry.js",
+	"private": true,
+	"dependencies": {
+		"expo": "^29.0.0",
+		"prop-types": "^15.6.2",
+		"react": "16.3.1",
+		"react-native": "https://github.com/expo/react-native/archive/sdk-29.0.0.tar.gz",
+		"react-navigation": "^2.9.3"
+	},
+	"scripts": {
+		"lint": "eslint *.js **/*.js",
+		"ios": "react-native run-ios --simulator='iPhone X'",
+		"android": "react-native run-android"
+	},
+	"jest": {
+		"preset": "jest-expo"
+	},
+	"devDependencies": {
+		"babel-core": "^6.26.3",
+		"babel-eslint": "^8.2.6",
+		"eslint": "^5.2.0",
+		"eslint-config-airbnb": "^17.0.0",
+		"eslint-plugin-import": "^2.13.0",
+		"eslint-plugin-jsx-a11y": "^6.1.1",
+		"eslint-plugin-react": "^7.10.0",
+		"jest-expo": "^29.0.0"
+	}
+}
