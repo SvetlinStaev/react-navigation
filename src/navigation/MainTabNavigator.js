@@ -4,8 +4,8 @@ import HomeStack from './stacks/HomeStackNavigator';
 import RegisterStack from './stacks/RegisterStackNavigator';
 
 const tabNavigator = createBottomTabNavigator({
-	HomeStack,
-	RegisterStack,
+	Home: HomeStack,
+	Register: RegisterStack,
 });
 
 export default tabNavigator;

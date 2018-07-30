@@ -13,7 +13,10 @@ class RegistrationScreen extends React.Component {
 		return (
 			<SafeAreaView style={{ flex: 1, backgroundColor: 'white', justifyContent: 'center', alignItems: 'center' }}>
 				<View>
-					<Text>registration goes here</Text>
+					<Text>
+						registration goes here, but the user needs to read the user agreement so he clicks on the button
+						below:
+					</Text>
 					<Button title="Read user agreement" onPress={this.handlePress} />
 				</View>
 			</SafeAreaView>

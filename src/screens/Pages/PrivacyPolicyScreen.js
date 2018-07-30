@@ -3,6 +3,10 @@ import { View, Text } from 'react-native';
 import { SafeAreaView } from 'react-navigation';
 
 class PrivacyPolicyScreen extends React.Component {
+	static navigationOptions = {
+		headerTitle: 'Privacy Policy',
+	};
+
 	render() {
 		return (
 			<SafeAreaView
