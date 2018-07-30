@@ -1,11 +1,11 @@
 import { createBottomTabNavigator } from 'react-navigation';
 
 import HomeStack from './stacks/HomeStackNavigator';
-import LoginStack from './stacks/LoginStackNavigator';
+import RegisterStack from './stacks/RegisterStackNavigator';
 
 const tabNavigator = createBottomTabNavigator({
 	HomeStack,
-	LoginStack,
+	RegisterStack,
 });
 
 export default tabNavigator;
